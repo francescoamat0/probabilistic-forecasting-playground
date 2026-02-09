@@ -20,7 +20,7 @@ The notebook is organized as a progression of several models:
 
 3. **NGBoost** — Distributional boosting: instead of predicting quantiles, it fits the parameters of a distribution (Normal) via natural-gradient boosting. Gives a coherent distribution (no quantile crossing) but distributional assumptions matter.
 
-4. **Split-conformal prediction** — A calibration layer on top of any point model (here HistGradientBoostingRegressor). Distribution-free coverage guarantees in ~20 lines of code. 
+4. **Split-conformal prediction** — A calibration layer on top of any point model (here HistGradientBoostingRegressor). Distribution-free coverage guarantees in ~20 lines of code.
 
 5. **DeepAR** (GluonTS) — Canonical deep probabilistic model. Designed for training across many series simultaneously; the notebook runs it on a single series to show where it struggles (and why).
 
